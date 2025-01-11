@@ -8,41 +8,59 @@ This repository contains a collection of Bash scripts for various tasks, includi
 ## Clone the Repository
 ```bash
 git clone https://github.com/S1N15T3R/Bash-Scripts.git
+```bash
+## Change Directory to scripts
+```bash
 cd Bash-Scripts
+```bash
 
-### Navigate to the Scripts Directory
+## Navigate to the Scripts Directory
+```bash
 cd scripts
+```bash
 
-### Give the Permission 
+## Give the Permission 
+```bash
 chmod +x HASH_ED.sh
 chmod +x add_string.sh
-
-
-
-
-## Scripts
-
-### 1. `HASH_ED.sh`
-
-#### Description
-A versatile Bash script to hash or encode strings using various algorithms (e.g., MD5, SHA256, Base64). It supports input from strings or files and allows specifying output files.
-
-#### Usage
 ```bash
-# Encrypt a string with MD5
+
+
+
+
+# Scripts
+
+## 1. `HASH_ED.sh`
+
+## Description
+### A versatile Bash script to hash or encode strings using various algorithms (e.g., MD5, SHA256, Base64). It supports input from strings or files and allows specifying output files.
+
+## Usage
+
+## Encrypt a string with MD5
+```bash
 ./scripts/HASH_ED.sh -e -a md5 -s "example_string"
+```bash
 
-# Encrypt a file's content with SHA256
+## Encrypt a file's content with SHA256
+```bash
 ./scripts/HASH_ED.sh -e -a sha256 -f input.txt -o output.txt
+```bash
 
-# Base64 encode a string
+## Base64 encode a string
+```bash
 ./scripts/HASH_ED.sh -e -a base64 -s "example_string"
+```bash
 
-# Base64 decode a string
+## Base64 decode a string
+```bash
 ./scripts/HASH_ED.sh -d -a base64 -s "ZXhhbXBsZV9zdHJpbmc="
+```bash
 
-# For further help
+## For further help
+```bash
 ./HASH_ED.sh -h
+```bash
 
 
 
