@@ -32,14 +32,19 @@ chmod +x add_string.sh
 ```
 
 
-
-
 # Scripts
 
 ## 1. `HASH_ED.sh`
 
 ## Description
- A versatile Bash script to hash or encode strings using various algorithms (e.g., MD5, SHA256, Base64). It supports input from strings or files and allows specifying output files.
+ A versatile Bash script to hash or encode-decode strings using various algorithms. It supports:
+<ins>Hashing Algorithms</ins>
+ **md5, sha1, sha224, sha256** 
+**sha384, sha512, ripemd160, whirlpool**
+<ins>Encoding/Decoding</ins>
+** base64**
+
+*Soon we'll be add other **Algorithm** and **Encoding/Decoding** method 🫣  
 
 ## Usage
 
