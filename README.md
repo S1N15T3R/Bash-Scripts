@@ -1,13 +1,13 @@
 # Bash Scripts Collection
 
-This repository contains a collection of Bash scripts for various tasks, including hashing, encoding, and string manip>
+This repository contains a collection of Bash scripts for various tasks, including hashing, encoding, and string manipulation
 
 ## Scripts
 
 ### 1. `HASH_ED.sh`
 
 #### Description
-A versatile Bash script to hash or encode strings using various algorithms (e.g., MD5, SHA256, Base64). It supports in>
+A versatile Bash script to hash or encode strings using various algorithms (e.g., MD5, SHA256, Base64). It supports input from strings or files and allows specifying output files.
 
 #### Usage
 ```bash
