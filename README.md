@@ -1,6 +1,6 @@
 # Bash Scripts Collection
 
-This repository contains a collection of Bash scripts for various tasks, including hashing, encoding, and string manipulation
+This repository contains a collection of Bash scripts for various tasks.
 
 
 # How to Use
